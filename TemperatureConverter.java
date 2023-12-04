@@ -18,11 +18,11 @@ public class TemperatureConverter {
             System.out.println(temperature + " Celsius is equal to " + convertedTemperature + " Fahrenheit.");
        
 }
-/*
+
 else if (unit == 'F' || unit == 'f') {
             double convertedTemperature = fahrenheitToCelsius(temperature);
             System.out.println(temperature + " Fahrenheit is equal to " + convertedTemperature + " Celsius.");
-        }*/
+        }
 else {
             System.out.println("Invalid temperature unit. Please enter C or F.");
         }
